@@ -19,3 +19,9 @@ Now it's **TIME**. We will use the `ssh` (secure shell) command to connect to th
 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
 
+You may be prompted with a warning making sure you want to connect. If this is the case, enter **yes**. I didn't get a warning because I've already connected before. When done properly, the terminal should end like this, asking for a password.
+
+![Image](Screenshot_20230112_094241.png)
+
+Finally, enter the new password you initialized when setting up your account. If you just set the password up, it might take some time to update (it did for me). This can take up to 15 minutes. When you're finally connected, this is what your output should look like:
+
