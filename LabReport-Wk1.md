@@ -15,7 +15,7 @@ Once installed, follow [these instructions](https://stackoverflow.com/a/50527994
 ![Image](Screenshot_20230112_092822.png)
 
 ## 3. Connect to the remote server
-Now it's time to connect to the remote server. We will use the `ssh` (secure shell) command to connect to the remote server. Type the command below into the terminal, replacing `zz` with the letters in your account. For me, my letters are
+Now it's time to connect to the remote server. We will use the `ssh` (secure shell) command to connect to the remote server. Type the command below into the terminal, replacing `zz` with the letters in your account. For me, my letters are "aem", but each account is different.
 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
 
@@ -23,7 +23,9 @@ You may be prompted with a warning making sure you want to connect. If this is t
 
 ![Image](Screenshot_20230112_094241.png)
 
-Finally, enter the new password you initialized when setting up your account. If you just set the password up, it might take some time to update (it did for me). This can take up to 15 minutes. When you're finally connected, this is what your output should look like:
+Finally, enter the new password you initialized when setting up your account. If you just set the password up, it might take some time to update (it did for me). This can take up to 15 minutes. When you're finally connected, this is what your output might look like:
+
+![Image]()
 
 Then I ran some commands, messing around and trying to navigate the remote computer. This is what my output looked like after that:
 
