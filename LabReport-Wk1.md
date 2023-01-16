@@ -25,7 +25,7 @@ You may be prompted with a warning making sure you want to connect. If this is t
 
 Finally, enter the new password you initialized when setting up your account. If you just set the password up, it might take some time to update (it did for me). This can take up to 15 minutes. When you're finally connected, this is what your output might look like:
 
-![Image]()
+![Image](Screenshot_20230112_084834.png)
 
 Then I ran some commands, messing around and trying to navigate the remote computer. This is what my output looked like after that:
 
