@@ -27,7 +27,7 @@ Finally, enter the new password you initialized when setting up your account. If
 
 ![Image](Screenshot_20230112_084834.png)
 
-Then I ran some commands, messing around and trying to navigate the remote computer. This is what my output looked like after that:
+Now you're connected! I then ran some commands as shown below, messing around and trying to navigate the remote computer. 
 
 ![Image](Screenshot_20230112_085236.png)
 
