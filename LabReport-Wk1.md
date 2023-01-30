@@ -29,5 +29,10 @@ Finally, enter the new password you initialized when setting up your account. If
 
 Now you're connected! I then ran some commands as shown below, messing around and trying to navigate the remote computer. 
 
-![Image](Screenshot_20230112_085236.png)
+![Image](edited_commands.png)
 
+The **cd** command is used to navigated to a path on the remote server. Using the command in the format **cd (path-name-here)** will navigate you to the path you specify. Here I navigated to the folder "perl5" in the root directory.
+
+The other command is **ls**, which lists the contents of the specified path. In this case, "perl5" is empty, and so nothing is returned. This command is useful when trying to navigated unfamiliar folders. 
+
+With these commands you can now navigate the remote server! Now you can access and use a course-specific account on a remote server.
