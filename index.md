@@ -6,9 +6,9 @@ The first step to getting connected is to ensure that your course-specific accou
 ## 2. Install `Git` and `Visual Studio Code`
 In order to remotely connect, we will use `git bash` in the terminal of `Visual Studio Code`. Use the links below to install both of these applications according to your operating system. I already had VS Code installed, so I only needed Git. 
 
-Visual Studio Code: https://code.visualstudio.com/
+[Link to Visual Studio Code](https://code.visualstudio.com/)
 
-Git for Windows: https://gitforwindows.org/
+[Link to Git for Windows](https://gitforwindows.org/)
 
 Once installed, follow [these instructions](https://stackoverflow.com/a/50527994) to open git bash in the Visual Studio Code terminal. Once completed, your visual studio window should look something like this:
 
@@ -29,4 +29,10 @@ Finally, enter the new password you initialized when setting up your account. If
 
 Now you're connected! I then ran some commands as shown below, messing around and trying to navigate the remote computer. 
 
-![Image](Screenshot_20230112_085236.png)
+![Image](edited_commands.png)
+
+The **cd** command is used to navigated to a path on the remote server. Using the command in the format **cd path-name-here** will navigate you to the path you specify. Here I navigated to the folder "perl5" in the root directory.
+
+The other command is **ls**, which lists the contents of the specified path. It is used in the format **ls path-name-here**. In this case, "perl5" is empty, and so nothing is returned. This command is useful when trying to navigate unfamiliar folders. 
+
+With these commands you can now navigate the remote server! Now you can access and use a course-specific account on a remote server.
