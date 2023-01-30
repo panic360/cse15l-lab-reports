@@ -6,9 +6,9 @@ The first step to getting connected is to ensure that your course-specific accou
 ## 2. Install `Git` and `Visual Studio Code`
 In order to remotely connect, we will use `git bash` in the terminal of `Visual Studio Code`. Use the links below to install both of these applications according to your operating system. I already had VS Code installed, so I only needed Git. 
 
-Visual Studio Code: https://code.visualstudio.com/
+[Link to Visual Studio Code](https://code.visualstudio.com/)
 
-Git for Windows: https://gitforwindows.org/
+[Link to Git for Windows](https://gitforwindows.org/)
 
 Once installed, follow [these instructions](https://stackoverflow.com/a/50527994) to open git bash in the Visual Studio Code terminal. Once completed, your visual studio window should look something like this:
 
