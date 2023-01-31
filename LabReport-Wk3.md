@@ -39,11 +39,11 @@ class StringServer {
 
 Here are two examples of messages being added.
 
-![Image]()
+![Image](message1.png)
 
 The method being called is `handleRequest(URI url)`, which parses the request into a message string. The string "add-message" is present in the request, so the server's message will be added to. Here, the relevant argument being passed is "Here is a message". The `message` variable in the `Handler` class is concatenated with a new line and the message to be added.
 
-![Image]()
+![Image](message2.png)
 
 Another "add-message" request is passed to the server. The process is repeated, except this time the relevant argument passed to the `handleRequest(URI url)` method is "Here's another one". The string `message` in the `Handler` class maintains the first message, and the new one is added on and displayed for the client.
 
@@ -76,8 +76,9 @@ public void testReverseInPlace() {
 }
 ```
 Here is the symptom. The second test runs fine, but the first one produces an error. The array differs from the expected after the middle index.
-![Image]()
-![Image]()
+![Image](error.png)
+
+![Image](passing.png)
 
 Here is the code before and after being fixed.
 Before:
@@ -101,7 +102,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
-The original code differs after the middle index because the left half of the array is overwritten before being used to assign the right half. In order to fix this, only half the array needs to be traversed, and each sequential value can be swapped with its appropriate index on the other side of the array.
+The original code makes the array differ after the middle index because the left half of the array is overwritten before being used to assign the right half. In order to fix this, only half the array needs to be traversed, and each sequential value can be swapped with its appropriate index on the other side of the array.
 
 ## Part 3: What I've Learned
 Most of the things I've learned in this class has been new to me so far. One of the most interesting things that I learned in week 2 was the basics of a server's backend. The internet seems like such a daunting topic, but seeing a simple server written in java and hosted on my own machine helped me get a better understanding of how a server works, such as using paths and requests. 
