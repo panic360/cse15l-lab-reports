@@ -7,6 +7,7 @@ $ grep -r "france" .
 ./patterns.txt:france
 ./travel_guides/berlitz1/WhereToFrance.txt:        Maison de la France Web site (<www.franceguide.com>) is also a 
 ```
+This command searches the given directory recursively without relying on wildcard patterns. I will be using it throughout the lab to demonstrate further commands.
 
 Here are two examples of messages being added.
 
