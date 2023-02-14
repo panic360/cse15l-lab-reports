@@ -1,40 +1,10 @@
-# Lab Report 2
+# Lab Report 3: Exploring the `grep` Command in Git Bash
 
-## Part 1: Creating the StringServer
-The web server `StringServer` is implemented below. It adds to a string, named `message`, as it receives requests.
+## Command 1: `grep -r`
 ```
-import java.io.IOException;
-import java.net.URI;
-
-class Handler implements URLHandler {
-    //String to be added to
-    String message = "";
-
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return message;
-        }
-        else if (url.getPath().contains("/add-message")) {
-            String[] parameters = url.getQuery().split("=");
-            message += "\n"+parameters[1];
-            return message;
-        }
-        return "404 Not Found!";
-    }
-}
-
-class StringServer {
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
-
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
-    }
-}
+$ grep -r "france" .
+./patterns.txt:france
+./travel_guides/berlitz1/WhereToFrance.txt:        Maison de la France Web site (<www.franceguide.com>) is also a 
 ```
 
 Here are two examples of messages being added.
