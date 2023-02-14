@@ -1,6 +1,7 @@
 # Lab Report 3: Exploring the `grep` Command in Git Bash
 
 ## Command 1: `grep -r`
+Example 1
 ```
 $ grep -r "france" .
 ./patterns.txt:france
