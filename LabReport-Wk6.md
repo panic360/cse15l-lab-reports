@@ -101,3 +101,8 @@ The 20th Century
 The Modern State
 ```
 This is a more interesting example that prints the files contents omitting lines with "the". This could be useful in quickly modifying data files that contain specific known strings. 
+
+Citations:
+All commands were found using
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+ChatGPT was used for my own understanding.
