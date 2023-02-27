@@ -2,3 +2,5 @@
 
 ## Step 1: Logging into My ieng6 Account
 ![Image](images/Screenshot-(74).png)
+Commands executed:
+`<up><enter>`
