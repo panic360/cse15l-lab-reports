@@ -13,13 +13,13 @@ I set up the commands so that logging into ieng6 was the first command in my his
 
 Commands executed:
 
-`<up><up><enter>`
+`<up><enter>`
 
 Again, I set up the command to clone the GitHub repository so it was in the history. The repository is then cloned onto my ieng6 account using the command `git clone git@github.com:panic360/lab7.git`. 
 
 ## Step 3: Run the tests, demonstrating that they fail
 ![Image](images/Screenshot-(76).png)
 
-`<up><up><up><enter><up><up><up><up><enter>`
+`<up><up><enter><up><up><up><enter>`
 
 The first command I access through my history is `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, which compiles all java files in the folder. Then I access the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` which runs the testers, demonstrating failure.
