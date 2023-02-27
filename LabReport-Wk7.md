@@ -28,7 +28,7 @@ First, I enter the folder by manually typing `cd lab7`. Then I access through my
 ![Image](images/Screenshot-(77).png)
 Keys pressed:
 
-`<up><up><up><up><enter><down><right><delete> 2 <^o><enter><^x>`
+`<up><up><up><up><up><enter><down><right><delete> 2 <^o><enter><^x>`
 
 I access the command `nano ListExamples.java` which opens a text editor in bash. I then navigate to the line requiring fixing, and replace the 1 with a 2. I use ctrl+o and ctrl+x to save and exit the editor.
 
