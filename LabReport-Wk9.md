@@ -9,8 +9,8 @@ Lyles   18  9.10.22
 Thompson    10  2.5.11
 Indred  49  5.16.16
 ```
-
-The most basic awk commands contain a "pattern", followed by an "action". These are both contained in single quotes and execute once for every line in a text file. 
+I explored awk's capabilities, rather than its options, because its options are quite limited. 
+The most basic awk commands contain a "pattern", followed by an "action". These are both contained in single quotes and execute once for every line in a text file.
 
 ## Ability 1: Separating input lines finto fields
 Ex. 1
@@ -62,7 +62,19 @@ Here, the BEGIN rule is used to assign the variable RS to "e". RS is the charact
 ## Ability 3: For loops
 Ex. 1
 ```
-
+$ awk 'BEGIN {for(i=0;i<10;i++) print i}'
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 ```
+
+
 
 Citations:
