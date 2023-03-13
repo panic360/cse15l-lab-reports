@@ -41,6 +41,7 @@ $ awk 'END {print NR}' test-data.txt
 
 Awk contains several internal variables which provide useful funciton to awk commands. One of these, NR, is incremented every time awk passes a new line. By adding the "END" rule to the command, here NR is used to retrieve the number of lines in the file.
 
+Ex. 2
 ```
 $ awk 'BEGIN {RS="e"} {print}' test-data.txt
 Nam
@@ -65,6 +66,3 @@ Ex. 1
 ```
 
 Citations:
-All commands were found using
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
-ChatGPT was used for my own understanding.
