@@ -29,7 +29,6 @@ Ex. 2
 $ awk '$1=="Lyles"' test-data.txt
 Lyles   18  9.10.22
 ```
-...
 
 Here, the pattern used checks if the name is equal to the string "Lyles". If it is, awk resorts to the default action, which is printing the relevant line. 
 
