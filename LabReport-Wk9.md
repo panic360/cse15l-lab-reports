@@ -116,5 +116,6 @@ This can be used more realistically to compare fields. Here the field correspond
 
 
 Citations:
+Info found using:
 https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
 https://thomas-cokelaer.info/blog/2011/05/awk-the-substr-command-to-select-a-substring/
