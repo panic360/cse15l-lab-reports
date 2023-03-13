@@ -74,7 +74,12 @@ $ awk 'BEGIN {for(i=0;i<10;i++) print i}'
 8
 9
 ```
+Awk has a built-in for loop that can be used to perform commands with an iteration variable. For example, here a simple for loop is used to print values 1 through 10. The BEGIN tag is necessary to ensure the command only executes once.
 
+Ex. 2
+```
+
+```
 
 
 Citations:
