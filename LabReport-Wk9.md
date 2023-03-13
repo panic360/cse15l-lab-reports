@@ -78,8 +78,43 @@ Awk has a built-in for loop that can be used to perform commands with an iterati
 
 Ex. 2
 ```
+$ awk '{for(i=1;i<=6;i+=2) print substr($0,i,1)}' test-data.txt
+N
+m
 
+M
+e
+s
+L
+l
+s
+T
+o
+p
+I
+d
+e
 ```
+Here is a more realistic application of the for loop. For every line in the file, a foor loop is executed which prints 3 characters from the line, skipping every other character. The `substr()` function takes a string, start index, and length parameter respectively to produce a substring output. 
+
+## Ability 4: If statements
+Ex. 1
+```
+$ awk '{if($1=="Myers") print}' test-data.txt 
+Myers   24  4.23.10
+```
+Rather than use a pattern to filter out items, if statements can be implemented programatically. Here, an if statement is created that prints a line if its first field equals the string "Myers". 
+
+Ex. 2
+```
+$ awk '{if($2>21) print}' test-data.txt
+Name    Age Date
+Myers   24  4.23.10
+Indred  49  5.16.16
+```
+This can be used more realistically to compare fields. Here the field corresponding to age is compared to 21, printing only the lines representing individuals who are older than 21. This could be useful when dealing with large amounts of data to present/ modify data quickly.
 
 
 Citations:
+https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+https://thomas-cokelaer.info/blog/2011/05/awk-the-substr-command-to-select-a-substring/
